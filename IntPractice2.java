@@ -1,14 +1,18 @@
-public class IntPractice2 {
-        public static void main(String[] args) { //строка объявления метода main
-            getMin(7,6,10); //не пишем int min =...,т.к. метод getMin не возвращает значения
-        }
-        public static void getMin(int int1, int int2, int int3){
-            if(int1<int2 && int1<int3)
-                System.out.println(int1);
-            else if(int2<int3)
-            {
-                System.out.println(int2);
-            }
-            else System.out.println(int3);
-        }
+public class IntPractice {
+    public static void main(String[] args) {
+        int a = getMin(3, 7, 6, 55);
     }
+    public static int getMin(int int1, int int2) {
+        if (int1<int2)
+            return int1;
+        else
+            return int2;
+    }
+    public static int getMin(int int1, int int2, int int3) {
+        int a = getMin(int1, int2);
+        return getMin(a, int3);
+    }
+    public static int getMin(int int1, int int2, int int3, int int4) {
+        return getMin(getMin(int1, int2, int3), int4);
+    }
+}
