@@ -1,6 +1,6 @@
-//Задание binary search+bubble sort
+//Задание binary search
 import java.util.Arrays;
-    public class ArrayFinal2 {
+    public class ArraysBinarySearch {
         public static void main(String[] args) {
             int[] numbers = new int[3];
             numbers[0] = 1;
