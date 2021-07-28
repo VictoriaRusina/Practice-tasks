@@ -1,4 +1,4 @@
-public class ElementsInAString {
+public class ElementsInAString4 {
     public static void main(String[] args) {
         String s = "Hello, let me see you again";
         int count = 0;
