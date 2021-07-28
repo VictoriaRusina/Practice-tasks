@@ -1,6 +1,6 @@
 //regular search
 import java.util.Arrays;
-public class ArraysRegularSearch_2 {
+public class ArraysRegularSearch2_1 {
     //Задание 2.1 a number to search in the array
     public static void main(String[] args) {
         int[] numbers = new int[3];
