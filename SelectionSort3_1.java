@@ -1,6 +1,6 @@
 //sort array, selection sort
 import java.util.Arrays;
-public class ArrayPractice6
+public class ArrayPractice3_1
 {
     public static void main(String[] args)
     {
