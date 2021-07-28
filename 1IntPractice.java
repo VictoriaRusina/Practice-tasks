@@ -1,4 +1,4 @@
-public class IntPractice {
+public class 1IntPractice {
     public static void main(String[] args) {
         int a = getMin(3, 7, 6, 55);
     }
